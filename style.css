@@ -1,0 +1,342 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'brown-sugar';
+    src: url(fontes/brown-sugar/brown-sugar.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'the-seasons';
+    src: url(fontes/The-Seasons/Demo_Fonts/Fontspring-DEMO-theseasons-reg.otf) format('opentype');
+}
+
+body{
+    background-color: #f4ecec !important;
+}
+
+.navbar-toggler-icon{
+    background-image: url(/imagem/oficiais/menu.svg);
+}
+.logopic{
+    max-width: 8vh;
+}
+.navbar-brand{
+    width: 50%;
+}
+.bg-body-tertiary{
+    background-color: #f4ecec !important;
+}
+#container-carrossel{
+    padding: 0;
+}
+.d-block{
+    max-height: 90vh; 
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    position: absolute;
+    top: 15vh;
+}
+.textbanner1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 27.5vh;
+}
+.straw{
+    font-family: brown-sugar, sans-serif;
+    font-size: 5vh;
+    color: #f4ecec;
+    text-align: center;
+    padding-right: 7vh;
+}
+.rose{
+    font-family: brown-sugar, sans-serif;
+    font-size: 5vh;
+    text-align: center;
+    color: #f4ecec;
+    padding-left: 8vh;
+    margin-top: -2.6vh;
+}
+.desc{
+    font-family: brown-sugar, sans-serif;
+    font-size: 2vh;
+    color: #f4ecec;
+    text-align: center;
+}
+.line1{
+    width: 7vh;
+    color: #f4ecec;
+    opacity: 0.8;
+}
+.linha1{
+    justify-content: center;
+    display: flex;
+    margin-top: -1vh;
+}
+.text1{
+    font-family: the-seasons,sans-serif;
+    font-size: 1.2vh;
+    color: #f4ecec;
+    text-align: center;
+    width: 15vh;
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.textbanner2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 25vh;
+}
+.creme{
+    font-family: brown-sugar, sans-serif;
+    font-size: 5.5vh;
+    color: #93747c;
+    text-align: center;
+    padding-right: 7.5vh;
+}
+.latte{
+    font-family: brown-sugar, sans-serif;
+    font-size: 5.5vh;
+    color: #93747c;
+    text-align: center;
+    padding-left: 7vh;
+    margin-top: -2.4vh;
+}
+.experimente{
+    width: 12vh;
+    font-family: the-seasons,sans-serif;
+    font-size: 1.3vh;
+    border-radius: 0.5rem;
+    border: none;
+    height: 3vh;
+    background-color: #93747c;
+    color: #f4ecec;
+    margin-left: 15.5vh;
+    margin-top: 1vh;
+}
+.textbanner3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 24vh;
+}
+.casquinhas{
+    font-family: brown-sugar, sans-serif;
+    font-size: 5.5vh;
+    color: #f4ecec;
+    text-align: center;
+    padding-right: 6vh;
+}
+.artesanais{
+    font-family: brown-sugar, sans-serif;
+    font-size: 5.5vh;
+    color: #f4ecec;
+    text-align: center;
+    padding-left: 5vh;
+    margin-top: -2.7vh;
+}
+.experimente2{
+    width: 13vh;
+    font-family: the-seasons,sans-serif;
+    font-size: 1.3vh;
+    border-radius: 0.5rem;
+    border: none;
+    height: 3vh;
+    background-color: #f4ecec;
+    color: #93747c;
+    margin-left: 15vh;
+    margin-top: 1vh;
+}
+.container{
+    position: absolute;
+    top: 45vh;
+}
+.produtos{
+    font-family: the-seasons,sans-serif;
+    font-size: 2.5vh;
+    color: #93747c;
+    width: 30vh;
+    text-align: center;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+#gelatos{
+    width: 38vh;
+    margin-left: 4vh;
+}
+#casquinhas{
+    width: 38vh;
+    margin-left: 4vh;
+}
+#cafeteria{
+    width: 38vh;
+    margin-left: 4vh;
+}
+.titlegelatos{
+    font-family: brown-sugar, sans-serif;
+    font-size: 5vh;
+    color: #f4ecec;
+    text-align: center;
+    transform: translateY(-14.5vh);
+}
+.titlecasq{
+    font-family: brown-sugar, sans-serif;
+    font-size: 5vh;
+    padding-left: 1.3vh;
+    color: #f4ecec;
+    text-align: center;
+    transform: translateY(-14.5vh);
+}
+.titlecafeteria{
+    font-family: brown-sugar, sans-serif;
+    font-size: 5vh;
+    color: #f4ecec;
+    text-align: center;
+    transform: translateY(-14.5vh);
+}
+.bttgelatos{
+    margin-bottom: -4.5vh;
+}
+.bttcasquinhas{
+    margin-bottom: -4.5vh;
+}
+/* ----------------------------------------------------------------------Outra proporção--------------------------------------------------------------------------------------- */
+@media (min-width: 992px) { 
+    .logopic{
+        max-width: 10vh;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        position: absolute;
+        top: 45vh;
+    }
+    .textbanner1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        bottom: 78vh;
+    }
+    .straw{
+        font-family: brown-sugar, sans-serif;
+        font-size: 13vh;
+        color: #f4ecec;
+        padding-right: 20vh;
+    }
+    .rose{
+        font-size: 13vh;
+        padding-left: 20vh;
+        margin-top: -5.5vh;
+    }
+    .desc{
+        font-family: brown-sugar, sans-serif;
+        font-size: 5vh;
+        color: #f4ecec;
+        text-align: center;
+        padding-top: 2vh;
+    }
+    .line1{
+        width: 20vh;
+        color: #f4ecec;
+        opacity: 1;
+    }
+    .linha1{
+        justify-content: center;
+        display: flex;
+        margin-top: -1vh;
+        padding-top: 2vh;
+    }
+    .text1{
+        font-family: the-seasons,sans-serif;
+        font-size: 2.6vh;
+        color: #f4ecec;
+        text-align: center;
+        width: 26vh;
+        margin: auto;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding-top: 3vh;
+    }
+    .textbanner2{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        bottom: 68vh;
+    }
+    .creme{
+        font-family: brown-sugar, sans-serif;
+        font-size: 15vh;
+        color: #93747c;
+        text-align: center;
+        padding-right: 20vh;
+    }
+    .latte{
+        font-family: brown-sugar, sans-serif;
+        font-size: 15vh;
+        color: #93747c;
+        text-align: center;
+        padding-left: 19vh;
+        margin-top: -5.6vh;
+    }
+    .experimente{
+        width: 25vh;
+        font-family: the-seasons,sans-serif;
+        font-size: 2.5vh;
+        border-radius: 1rem;
+        border: none;
+        height: 6vh;
+        background-color: #93747c;
+        color: #f4ecec;
+        margin-left: 43%;
+        margin-top: 7vh;
+    }
+    .textbanner3{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        bottom: 68vh;
+    }
+    .casquinhas{
+        font-family: brown-sugar, sans-serif;
+        font-size: 15vh;
+        color: #f4ecec;
+        text-align: center;
+        padding-right: 20vh;
+    }
+    .artesanais{
+        font-family: brown-sugar, sans-serif;
+        font-size: 15vh;
+        color: #f4ecec;
+        text-align: center;
+        padding-left: 17vh;
+        margin-top: -6vh;
+    }
+    .experimente2{
+        width: 25vh;
+        font-family: the-seasons,sans-serif;
+        font-size: 2.5vh;
+        border-radius: 1rem;
+        border: none;
+        height: 6vh;
+        background-color: #f4ecec;
+        color: #93747c;
+        margin-left: 43%;
+        margin-top: 7vh;
+    }
+    .container{
+        position: relative;
+        top: -50vh;
+    }
+    .produtos{
+        font-family: the-seasons,sans-serif;
+        font-size: 4vh;
+        color: #93747c;
+        width: 50vh;
+        text-align: center;
+        margin: auto;
+    }
+ }
