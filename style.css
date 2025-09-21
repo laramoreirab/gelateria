@@ -18,7 +18,7 @@ body{
 }
 
 .navbar-toggler-icon{
-    background-image: url(/imagem/oficiais/menu.svg);
+    background-image: url(imagem/oficiais/menu.svg);
 }
 .logopic{
     max-width: 8vh;
@@ -206,10 +206,31 @@ body{
 .bttcasquinhas{
     margin-bottom: -4.5vh;
 }
-
-
-
-
+.card-body{
+    background-image: url(imagem/home/espacointerno.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27vh;
+}
+.card-title{
+     font-family: the-seasons,sans-serif;
+     color: #f4ecec;
+     text-align: center;
+}
+.card-text{
+     font-family: the-seasons,sans-serif;
+     color: #e1ceca;
+     text-align: left;
+     margin-left: 2vh;
+}
+a.btn.btn-primary{
+    font-family: the-seasons,sans-serif;
+    background-color: #f4ecec;
+    color: #93747c;
+    font-size: 1.3vh;
+    border-radius: 0.9rem !important;
+    border: none;
+}
 
 /* ----------------------------------------------------------------------Outra proporção--------------------------------------------------------------------------------------- */
 @media (min-width: 992px) { 
