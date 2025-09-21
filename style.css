@@ -166,17 +166,19 @@ body{
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
+.fileiraprodutos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #gelatos{
     width: 38vh;
-    margin-left: 4vh;
 }
 #casquinhas{
     width: 38vh;
-    margin-left: 4vh;
 }
 #cafeteria{
     width: 38vh;
-    margin-left: 4vh;
 }
 .titlegelatos{
     font-family: brown-sugar, sans-serif;
@@ -188,7 +190,6 @@ body{
 .titlecasq{
     font-family: brown-sugar, sans-serif;
     font-size: 5vh;
-    padding-left: 1.3vh;
     color: #f4ecec;
     text-align: center;
     transform: translateY(-14.5vh);
@@ -206,6 +207,10 @@ body{
 .bttcasquinhas{
     margin-bottom: -4.5vh;
 }
+.container-card{
+    display: flex;
+    justify-content: center;
+}
 .card-body{
     background-image: url(imagem/home/espacointerno.svg);
     background-repeat: no-repeat;
@@ -216,20 +221,24 @@ body{
      font-family: the-seasons,sans-serif;
      color: #f4ecec;
      text-align: center;
+     margin-top: 2vh;
 }
 .card-text{
      font-family: the-seasons,sans-serif;
      color: #e1ceca;
      text-align: left;
-     margin-left: 2vh;
+     margin-left: 2.6vh;
+     margin-top: 2.5vh;
+     margin-bottom: 2.5vh;
 }
 a.btn.btn-primary{
     font-family: the-seasons,sans-serif;
     background-color: #f4ecec;
     color: #93747c;
-    font-size: 1.3vh;
+    font-size: 1.2vh;
     border-radius: 0.9rem !important;
     border: none;
+    margin-left: 7vh;
 }
 
 /* ----------------------------------------------------------------------Outra proporção--------------------------------------------------------------------------------------- */
