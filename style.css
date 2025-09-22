@@ -214,7 +214,7 @@ body{
     display: flex;
     justify-content: center;
 }
-.card-body{
+.card-body.home{
     background-image: url(imagem/home/espacointerno.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -343,6 +343,70 @@ img.d-block.w-100.strawfrapcard{
     width: 30vh;
     margin: auto;
     text-align: center;
+}
+/* .btn-primary{
+     color: #93747c !important;
+} */
+.col-md-3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5vh;
+}
+.container-sabores1{
+    margin-top: 3vh;
+}
+h4{
+    font-family: the-seasons,sans-serif;
+    font-size: 20px;
+}
+.card-text{
+    font-size: 15px;
+    margin: auto;
+    font-family: sans-serif;
+}
+h4::after{
+    content: "";
+    width: 20%;
+    height: 5px;
+    display: block;
+    background: #9f8189;
+    border-radius: 16px;
+    margin-top: 0.5vh;
+}
+
+/* -------------------------------------------------------------------------Cafeteria----------------------------------------------------------------- */
+
+.cafeteriaback{
+    width: 100%;
+}
+.cafeteriatitulo{
+    font-family: brown-sugar, sans-serif;
+    color: #f4ecec;
+    text-align: center;
+    font-size: 6vh;
+    position: relative;
+    top: -18vh;
+}
+.container-cafeteria{
+    position: relative;
+    top: -4vh;
+}
+
+/* -------------------------------------------------------------------------Casquinhas---------------------------------------------------------------------- */
+.casquinhasback{
+    width: 100%;
+}
+.casquinhastitulo{
+    font-family: brown-sugar, sans-serif;
+    color: #f4ecec;
+    text-align: center;
+    font-size: 6vh;
+    position: relative;
+    top: -18vh;
+}
+.container-casquinhas{
+    position: relative;
+    top: -4vh;
 }
 
 
