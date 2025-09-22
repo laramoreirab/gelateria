@@ -297,6 +297,57 @@ img.d-block.w-100.strawfrapcard{
 }
 
 /* ------------------------------------------------------------------------Página Gelatos----------------------------------------------------------- */
+.container-banner{
+    width: 100%;
+}
+.gelatosback{
+    width: 100%;
+}
+.gelatostitulo{
+    font-family: brown-sugar, sans-serif;
+    color: #f4ecec;
+    text-align: center;
+    font-size: 6vh;
+    position: relative;
+    top: -18vh;
+}
+.container-gelatos{
+    position: relative;
+    top: -3vh;
+}
+.tamanhos{
+    font-family: the-seasons,sans-serif;
+    color: #93747c;
+    font-size: 2.5vh;
+    text-align: center;
+}
+.contcopos{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.coposimg{
+    width: 38vh;
+}
+.copinhos{
+    font-family: brown-sugar, sans-serif;
+    font-size: 5vh;
+    color: #f4ecec;
+    text-align: center;
+    transform: translateY(-16vh);
+}
+.sabores{
+    font-family: the-seasons,sans-serif;
+    color: #93747c;
+    font-size: 2.5vh;
+    width: 30vh;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
 /* ----------------------------------------------------------------------Outra proporção--------------------------------------------------------------------------------------- */
 @media (min-width: 992px) { 
     .logopic{
