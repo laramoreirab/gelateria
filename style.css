@@ -421,13 +421,125 @@ h4::after{
 }
 
 /* -----------------------------------------------------------------------contato---------------------------------------------------------------------------------- */
+.contato{
+    font-family: the-seasons,sans-serif;
+    font-size: 2.5vh;
+    color: #93747c;
+    text-align: center;
 
+}
+.container-contatos{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#contform{
+    margin-top: 2vh;
+    width: 100%;
+}
+input[type="text"]{
+    height: 3vh;
+    border-radius: 1rem;
+    border: none;
+    padding-left: 1.5vh;
+    background-color: #e6cccc;
+    font-size: 1.5vh;
+    padding-left: 2vh;
+    color: #93747c;
+}
+input#inome{
+    width: 65%;
+    font-size: 1.5vh;
+}
+input[type="email"]{
+    height: 3vh;
+    border-radius: 1rem;
+    padding-left: 2vh;
+    border: none;
+    background-color: #e6cccc;
+    width: 65%;
+    font-size: 1.5vh;
+    color: #93747c;
+}
+input[type="tel"]{
+    height: 3vh;
+    border-radius: 1rem;
+    border: none;
+    padding-left: 2vh;
+    background-color: #e6cccc;
+    width: 65%;
+    font-size: 1.5vh;
+    color: #93747c;
+}
+textarea#imsg{
+    height: 13vh;
+    padding-top: 1.5vh;
+    width: 65%;
+    border-radius: 1rem;
+    border: none;
+    padding-left: 2vh;
+    background-color: #e6cccc;
+    font-size: 1.5vh;
+    color: #93747c;
+}
+input[type="submit"]{
+     width: 25%;
+    border-radius: 1rem;
+    border: none;
+    height: 3vh;
+    cursor: pointer;
+    background-color:  #cd9b9b;
+    color: #ffff;
+    font-size: 1.5vh;
+    margin-top: 1.5vh;
+    margin-left: 8vh;
+}
+.nome{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1vh;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1vh;
+}
+.telefone{
+     display: flex;
+    justify-content: center;
+    padding-bottom: 1vh;
+    padding-bottom: 1vh;
+}
+.mensagem{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1vh;
+}
 
-
-
-
-
-
+input[type="text"]:focus {
+  outline: 2px solid #a1a1a1;
+  outline-offset: 0;
+}
+input[type="tel"]:focus {
+  outline: 2px solid #a1a1a1;
+  outline-offset: 0;
+}
+input[type="email"]:focus {
+  outline: 2px solid #a1a1a1;
+  outline-offset: 0;
+}
+textarea:focus {
+  outline: 2px solid #a1a1a1;
+  outline-offset: 0;
+}
+iframe{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
 /* ----------------------------------------------------------------------Outra proporção--------------------------------------------------------------------------------------- */
 @media (min-width: 992px) { 
     .logopic{
